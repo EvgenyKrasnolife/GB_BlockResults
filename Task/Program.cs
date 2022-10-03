@@ -9,3 +9,14 @@ string[] FillArray()
 	return array;
 }
 
+string[] FindElementsLen3(string[] array){
+	string temp = String.Empty;
+	for(int i = 0; i < array.Length; i++){
+		if(array[i].Length <= 3){
+			temp += " " + array[i];
+		} 
+	}
+	var arrayElLen3 = temp.Split(" ");
+	return arrayElLen3;
+}
+
