@@ -20,3 +20,13 @@ string[] FindElementsLen3(string[] array){
 	return arrayElLen3;
 }
 
+void PrintArray(string[] array){
+	for(int i = 0; i<array.Length; i++){
+	Console.WriteLine(array[i]);
+}
+}
+
+
+string[] array = FillArray();
+string[] arrayElLen3 = FindElementsLen3(array);
+PrintArray(arrayElLen3);
